@@ -1,0 +1,71 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 60px;
+  color: #ffffff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  &:hover {
+    color: #ffffff;
+    background-color: #444444;
+  }
+  &.active {
+    font-weight: 700;
+    background-color: #777777;
+  }
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1;
+  .my-name {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  padding-top: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.title-text-line {
+  height: 1px;
+  width: 100%;
+  background-color: #aaaaaa;
+}
+
+.image-container {
+  background-color: #eee;
+  width: 100%;
+  margin-bottom: 3rem;
+  img {
+    width: 100%;
+  }
+}
+
+.video-container {
+  width: 100%;
+  margin-bottom: 3rem;
+}
