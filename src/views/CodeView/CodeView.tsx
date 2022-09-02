@@ -11,7 +11,7 @@ export default function CodeView() {
       <Row>
         <h2>Grafana Breadcrumb Plugin</h2>
         <div>Github: <a href="https://github.com/timyllym/grafana-breadcrumb-panel">https://github.com/timyllym/grafana-breadcrumb-panel</a></div>
-        <div>Grafana: <a href="https://grafana.com/grafana/plugins/digiapulssi-breadcrumb-panel/">https://grafana.com/grafana/plugins/digiapulssi-breadcrumb-panel</a></div>
+        <div>Grafana: <a href="https://grafana.com/grafana/plugins/timomyl-breadcrumb-panel/">https://grafana.com/grafana/plugins/timomyl-breadcrumb-panel</a></div>
       </Row>
       <Row>
         <h2>Simple (and old) VueJS Try Out</h2>
